@@ -14,7 +14,7 @@ public class UserRegistrationMainUc13 {
 
         System.out.println("Email :");
         Predicate<String> email = i ->i.matches("abc[.][a-z]{3}@bl[.]co[.][a-z]{2}");
-        System.out.println( email.test("abc.xyz@bl.co.in"));
+        System.out.println( email.test("xyz.xyz@bl.co.in"));
 
         System.out.println("MobileNumber :");
         Predicate<String> mobilenumber = i ->i.matches("^(91 )([0-9]{10})$");
@@ -24,5 +24,4 @@ public class UserRegistrationMainUc13 {
         Predicate<String> password = i ->i.matches("^([aA-zZ]{8,})[0-9]{3}[@$+&*]{1}$");
         System.out.println( password.test("Sai@060200"));
     }
-
 }
