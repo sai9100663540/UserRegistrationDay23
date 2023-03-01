@@ -54,4 +54,5 @@ public class UserRegistrationTest {
         String expected = password;
         assertTrue(actual, expected);
     }
+    
 }
