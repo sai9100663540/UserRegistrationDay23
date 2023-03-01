@@ -30,4 +30,5 @@ public class ParameterizedEmailTest {
         boolean result = ur.isValidAllEmailSamples(this.email);
         assertEquals(this.expected, result);
     }
+    
 }
