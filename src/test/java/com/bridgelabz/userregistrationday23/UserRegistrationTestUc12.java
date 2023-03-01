@@ -46,4 +46,5 @@ public class UserRegistrationTestUc12 {
             assertEquals(InvalidUserException.enumType.PASSWORD,e.type);
         }
     }
+    
 }
